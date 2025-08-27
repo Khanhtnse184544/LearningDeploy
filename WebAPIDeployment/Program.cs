@@ -50,6 +50,7 @@ namespace WebAPIDeployment
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseSwagger();
 
             app.UseCors("AllowReactApp");
 
